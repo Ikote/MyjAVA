@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Ikote\Documents\TestMe\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="25.0.3"
+        sha1="161608842f2bec8c805ed04c35894edd20faed8b">
+        <dex dex="C:\Users\Ikote\Documents\TestMe\app\build\intermediates\pre-dexed\debug\instant-run_2b2023c17c1dff50c99e428323483e6e5ba4094a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ikote\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        revision="25.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Ikote\Documents\TestMe\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_d1362fdc30430f84eb990c87d5575dc75331bff7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ikote\Documents\TestMe\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="25.0.3"
+        sha1="70189df9683e0b6323c4c05272784686ad44acf2">
+        <dex dex="C:\Users\Ikote\Documents\TestMe\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_2cb1a61b09870767cb50539970f1e74034421241.jar" />
+    </item>
+
+</items>

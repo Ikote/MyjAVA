@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Ikote\\Documents\\TestMe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_result.xml",
+        "source": "C:\\Users\\Ikote\\Documents\\TestMe\\app\\src\\main\\res\\menu\\activity_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ikote\\Documents\\TestMe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_quiz.xml",
+        "source": "C:\\Users\\Ikote\\Documents\\TestMe\\app\\src\\main\\res\\menu\\activity_quiz.xml"
+    }
+]
