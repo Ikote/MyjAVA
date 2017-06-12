@@ -2,7 +2,7 @@
 manifest
 ADDED from C:\Users\Ikote\Documents\TestMe\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
-		ADDED from C:\Users\Ikote\Documents\TestMe\app\src\main\AndroidManifest.xml:3:5-37
+		ADDED from C:\Users\Ikote\Documents\TestMe\app\src\main\AndroidManifest.xml:3:5-30
 		INJECTED from C:\Users\Ikote\Documents\TestMe\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Ikote\Documents\TestMe\app\src\main\AndroidManifest.xml
 	android:versionName

@@ -11,7 +11,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-import com.example.triviality.R;
+import com.ikey.testme.R;
 
 public class QuizActivity extends Activity {
 	List<Question> quesList;
@@ -19,6 +19,7 @@ public class QuizActivity extends Activity {
 	int qid=0;
 	Question currentQ;
 	TextView txtQuestion;
+	TextView txtError1;
 	RadioButton rda, rdb, rdc;
 	Button butNext;
 	@Override
@@ -29,14 +30,27 @@ public class QuizActivity extends Activity {
 		quesList=db.getAllQuestions();
 		currentQ=quesList.get(qid);
 		txtQuestion=(TextView)findViewById(R.id.textView1);
+		txtError1=(TextView)findViewById(R.id.txtError);
 		rda=(RadioButton)findViewById(R.id.radio0);
 		rdb=(RadioButton)findViewById(R.id.radio1);
 		rdc=(RadioButton)findViewById(R.id.radio2);
 		butNext=(Button)findViewById(R.id.button1);
 		setQuestionView();
+
 		butNext.setOnClickListener(new View.OnClickListener() {		
 			@Override
 			public void onClick(View v) {
+				if ((!rda.isChecked()) && (!rdb.isChecked()) && (!rdc.isChecked())){
+					String message = "Please select an answer first!";
+					//System.out.print(message);
+					txtError1.setText(message);
+					txtError1.setVisibility(View.VISIBLE);
+				}
+				else {
+					txtError1.setVisibility(View.INVISIBLE);
+					rda.setChecked(false);
+					rdb.setChecked(false);
+					rdc.setChecked(false);
 				RadioGroup grp=(RadioGroup)findViewById(R.id.radioGroup1);
 				RadioButton answer=(RadioButton)findViewById(grp.getCheckedRadioButtonId());
 				Log.d("yourans", currentQ.getANSWER()+" "+answer.getText());
@@ -57,7 +71,7 @@ public class QuizActivity extends Activity {
 					finish();
 				}
 			}
-		});
+		}});
 	}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

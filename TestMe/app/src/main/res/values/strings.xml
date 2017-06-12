@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">TestMe</string>
+    <string name="app_name">Bible Quiz</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="str_next">Next</string>
     <string name="textview_text">Big Text</string>
-    <string name="title_activity_result">Results!!!</string>
+    <string name="title_activity_result">Your score!</string>
+    <string name="thank_you">Thank you for using this app.</string>
+    <string name="credits">For more information email me: itogotikote@gmail.com</string>
 
 </resources>

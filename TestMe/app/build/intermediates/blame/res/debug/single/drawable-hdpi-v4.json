@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Ikote\\Documents\\TestMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\Ikote\\Documents\\TestMe\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Ikote\\Documents\\TestMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic3.png",
+        "source": "C:\\Users\\Ikote\\Documents\\TestMe\\app\\src\\main\\res\\drawable-hdpi\\pic3.png"
+    },
+    {
+        "merged": "C:\\Users\\Ikote\\Documents\\TestMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.jpg",
+        "source": "C:\\Users\\Ikote\\Documents\\TestMe\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.jpg"
     }
 ]

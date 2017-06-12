@@ -5,7 +5,7 @@ import android.view.Menu;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
-import com.example.triviality.R;
+import com.ikey.testme.R;
 
 public class ResultActivity extends Activity {
 	@Override
@@ -25,6 +25,8 @@ public class ResultActivity extends Activity {
 		bar.setRating(score);
 		switch (score)
 		{
+			case 0: t.setText("Sorry; you failed to get even one correct answer. Please read your Bible more often.");
+				break;
 		case 1:
 		case 2: t.setText("Sorry; your score is below average. Read your Bible and try again.");
 		break;

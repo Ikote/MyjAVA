@@ -5,7 +5,7 @@
         jar="C:\Users\Ikote\Documents\TestMe\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="25.0.3"
-        sha1="161608842f2bec8c805ed04c35894edd20faed8b">
+        sha1="4095eca3fac227ab3ff94426ea529bdfaeed205b">
         <dex dex="C:\Users\Ikote\Documents\TestMe\app\build\intermediates\pre-dexed\debug\instant-run_2b2023c17c1dff50c99e428323483e6e5ba4094a.jar" />
     </item>
     <item
@@ -19,7 +19,7 @@
         jar="C:\Users\Ikote\Documents\TestMe\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="25.0.3"
-        sha1="70189df9683e0b6323c4c05272784686ad44acf2">
+        sha1="b8dffa8f4c2c6367617f65390ca1fae65916e6fe">
         <dex dex="C:\Users\Ikote\Documents\TestMe\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_2cb1a61b09870767cb50539970f1e74034421241.jar" />
     </item>
 
